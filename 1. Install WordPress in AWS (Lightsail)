@@ -1,0 +1,13 @@
+# Install WordPress in AWS (Lightsail)
+
+1.เปิด AWS ไปที่ Lightsail (เลือกตาม default เลย)
+2.เลือกขนาดอินสแตนซ์หน่วยความจำ ที่มีหน่วยความจำ 512 MB (ฟรีหนึ่งเดือนแรก)
+3.เชื่อมต่อกับอินสแตนซ์โดยใช้ SSH และรับรหัสผ่านผู้ดูแลระบบ Wordpress
+4.จะขึ้นหน้า command
+   -  ls
+   -  cat bitnami_application_password
+   -  เก็บรหัสไว้ เอาไว้ใช้ register wordpress 
+5.เมื่อ create เสร็จ จะให้ ip มา เราต้องเอา ip นั้นมา register wordpress 
+   -  ใส้ wp-admin ต่อท้าย   ex) http://13.250.108.123/wp-admin
+6.username  :  user
+  password  :  เอารหัสที่ก้อปมาตอนแรกมาใส่
